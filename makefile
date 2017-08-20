@@ -1,2 +1,2 @@
 all:
-	nvcc cuda_list.cc -o cuda_list -std=c++11
+	nvcc cuda_list.cc -o cuda_list -std=c++11 -lnvidia-ml
